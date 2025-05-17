@@ -185,4 +185,26 @@ main {
 
 @media screen and (max-width: 375px) {
 
+    h1 {
+        font-size: 225%;
+    }
+
+    #card {
+        width: 100%;
+        border-radius: 0;
+        padding: 2em;
+    }
+
+    #wrapper_dish {
+        margin: -2em -2em auto;
+    }
+
+    #dish {
+        border-radius: 0;
+    } 
+
+    #preparation {
+        padding: 0.4em;
+    }
+
    }
