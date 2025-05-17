@@ -75,7 +75,7 @@ p {
 }
 
 body {
-    min-height: 200vh;
+    min-height: 210vh;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -91,7 +91,7 @@ h2 {
     font-size: 175%;
 }
 
-h3 {
+#preparation_title {
     font-size: 120%;
 }
 
@@ -123,7 +123,7 @@ main {
     margin: 2em 0;
 }
 
-#preparation h3 {
+#preparation_title {
     padding-left: 1em;
     margin-top: 0.7em;
 }
