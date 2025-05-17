@@ -88,7 +88,7 @@ h1 {
 }
 
 h2 {
-    font-size: 170%;
+    font-size: 175%;
 }
 
 h3 {
@@ -96,7 +96,7 @@ h3 {
 }
 
 li {
-    padding-left: 1em;
+    padding-left: 1.2em;
     margin-bottom: 1em;
 }
 
@@ -120,7 +120,7 @@ main {
 }
 
 #preparation {
-    padding: 1em;
+    padding: 0.8em;
     margin: 2em 0;
 }
 
@@ -137,13 +137,16 @@ main {
     color: hsl(332, 51%, 32%);
 }
 
+#ingredient ul, #instruction ol {
+    padding-left: 1.3em;
+}
+
 #instruction li::marker {
     font-size: 1em;
     font-weight: bold;
 }
 
 .border_limit::after {
-/*    border-bottom: 1px solid hsl(30, 18%, 87%); */
     height: 1px;
     display: block;
     background: hsl(30, 18%, 87%);
@@ -153,8 +156,31 @@ main {
 }
 
 #nutrition {
+    padding-left: 1em;
+}
+
+#table_nutrition {
     table-layout: fixed;
     width: 100%;
+    border-collapse: collapse;
+}
+
+#table_nutrition td:first-child {
+    padding: 1em 1em;
+}
+
+#table_nutrition td:last-child {
+    padding-left: 0.7em;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+#table_nutrition tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+#table_nutrition tr:last-child td {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 375px) {
